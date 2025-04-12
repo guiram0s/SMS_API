@@ -1,0 +1,113 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\guial\\Downloads\\SmsAPI - Copy-20250410T192007Z-001\\SmsAPI - Copy\\SmsAPI\\SmsAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\guial\\Downloads\\SmsAPI - Copy-20250410T192007Z-001\\SmsAPI - Copy\\SmsAPI\\SmsAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\guial\\Downloads\\SmsAPI - Copy-20250410T192007Z-001\\SmsAPI - Copy\\SmsAPI\\SmsAPI.csproj",
+        "projectName": "SmsAPI",
+        "projectPath": "C:\\Users\\guial\\Downloads\\SmsAPI - Copy-20250410T192007Z-001\\SmsAPI - Copy\\SmsAPI\\SmsAPI.csproj",
+        "packagesPath": "C:\\Users\\guial\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\guial\\Downloads\\SmsAPI - Copy-20250410T192007Z-001\\SmsAPI - Copy\\SmsAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\guial\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Flurl": {
+              "target": "Package",
+              "version": "[3.0.4, )"
+            },
+            "Flurl.Http": {
+              "target": "Package",
+              "version": "[3.2.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.14, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.14.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "SMSAPI.pl": {
+              "target": "Package",
+              "version": "[1.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Twilio": {
+              "target": "Package",
+              "version": "[5.72.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

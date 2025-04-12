@@ -1,0 +1,44 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<div class="container">
+
+    <hr />
+    <div class="row">
+        <div class="col-md-8 mb-4">
+            <h1>Enviar mensagem</h1>
+            <br />
+            <p>Serviço:</p>
+            <form asp-page="MessageInfo" method="post">
+                <select name="service">
+                    <option value="0">Twilio</option>
+                    <option value="1">SmsApi</option>
+                    <option value="2">SmsBulk</option>
+                </select>
+                @if (!string.IsNullOrEmpty(Model.Message))
+                {
+                    <h3>@Model.Message</h3>
+                }
+                <div class="control-group form-group">
+                    <div class="controls">
+                        <br />
+                        <label asp-for="MessageInfo.tel">Phone Number:</label>
+                        <input asp-for="MessageInfo.tel" class="form-control">
+                        <span asp-validation-for="MessageInfo.tel"></span>
+                    </div>
+                </div>
+                <div class="control-group form-group">
+                    <div class="controls">
+                        <label asp-for="MessageInfo.msg">Message:</label>
+                        <textarea rows="10" cols="100" asp-for="MessageInfo.msg" class="form-control"></textarea>
+                        <span asp-validation-for="MessageInfo.msg"></span>
+                    </div>
+                </div>
+                <div id="success"></div>
+                <button type="submit" class="btn btn-success" id="sendMessageButton">Send Message!</button>
+            </form>
+        </div>
+    </div>
+</div>

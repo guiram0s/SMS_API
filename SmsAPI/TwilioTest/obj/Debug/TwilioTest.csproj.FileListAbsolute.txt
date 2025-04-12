@@ -1,0 +1,17 @@
+C:\Users\guilh\Desktop\SmsAPI - Copy\TwilioTest\bin\Debug\TwilioTest.exe.config
+C:\Users\guilh\Desktop\SmsAPI - Copy\TwilioTest\bin\Debug\TwilioTest.exe
+C:\Users\guilh\Desktop\SmsAPI - Copy\TwilioTest\bin\Debug\TwilioTest.pdb
+C:\Users\guilh\Desktop\SmsAPI - Copy\TwilioTest\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\guilh\Desktop\SmsAPI - Copy\TwilioTest\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\guilh\Desktop\SmsAPI - Copy\TwilioTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\guilh\Desktop\SmsAPI - Copy\TwilioTest\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\guilh\Desktop\SmsAPI - Copy\TwilioTest\bin\Debug\Twilio.dll
+C:\Users\guilh\Desktop\SmsAPI - Copy\TwilioTest\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\guilh\Desktop\SmsAPI - Copy\TwilioTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\guilh\Desktop\SmsAPI - Copy\TwilioTest\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\guilh\Desktop\SmsAPI - Copy\TwilioTest\bin\Debug\Twilio.xml
+C:\Users\guilh\Desktop\SmsAPI - Copy\TwilioTest\obj\Debug\TwilioTest.csproj.AssemblyReference.cache
+C:\Users\guilh\Desktop\SmsAPI - Copy\TwilioTest\obj\Debug\TwilioTest.csproj.CoreCompileInputs.cache
+C:\Users\guilh\Desktop\SmsAPI - Copy\TwilioTest\obj\Debug\TwilioTest.csproj.CopyComplete
+C:\Users\guilh\Desktop\SmsAPI - Copy\TwilioTest\obj\Debug\TwilioTest.exe
+C:\Users\guilh\Desktop\SmsAPI - Copy\TwilioTest\obj\Debug\TwilioTest.pdb

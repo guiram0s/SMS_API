@@ -1,0 +1,32 @@
+﻿@page
+@model SmsApiWeb.Pages.SaldoModel
+@{
+    ViewData["Title"] = "Saldo";
+}
+<div class="container">
+
+    <hr />
+    <div class="row">
+        <div class="col-md-8 mb-4">
+            <h1>Conferir Saldo</h1>
+            <br />
+            <p>Serviço:</p>
+            <form asp-page="MessageInfo" method="post">
+                <select name="serviceSaldo">
+                    <option value="0">Twilio</option>
+                    <option value="1">SmsApi</option>
+                    <option value="2">SmsBulk</option>
+                </select>
+                <div id="success"></div>
+                <br />
+                <button type="submit" class="btn btn-success" id="getSaldoButton">Saldo</button>
+                <br />
+                @if (!string.IsNullOrEmpty(Model.Message))
+                {
+                    <h3>@Model.Message</h3>
+                }
+
+            </form>
+        </div>
+    </div>
+</div>

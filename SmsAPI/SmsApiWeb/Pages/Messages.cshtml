@@ -1,0 +1,63 @@
+﻿@page
+@model SmsApiWeb.Pages.MessagesModel
+@{
+    ViewData["Title"] = "Mensagens";
+}
+<div class="container">
+
+    <hr />
+    <div class="row">
+        <div class="col-md-8 mb-4">
+            <h1>Conferir Mensagens</h1>
+            <br />
+            <p>Serviço:</p>
+            <form asp-page="SmsLog" method="post">
+                <select name="serviceMessages">
+                    <option value="0">Todas</option>
+                    <option value="1">Twilio</option>
+                    <option value="2">SmsApi</option>
+                    <option value="3">SmsBulk</option>
+                </select>
+                <div id="success"></div>
+                <br />
+                <button type="submit" class="btn btn-success" id="getSaldoButton">Mensagens</button>
+                <br />
+                @if (!string.IsNullOrEmpty(Model.Message))
+                {
+                    <h3>@Model.Message</h3>
+                }
+                <br />
+                <table class="table">
+                    <tr>
+                        <th>Id</th>
+                        <th>Provider</th>
+                        <th>DateTime</th>
+                        <th>Phone</th>
+                        <th>Remetente</th>
+                        <th>Price</th>
+
+                    </tr>
+                    @foreach (var item in Model.smsLogList)
+                    {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Provider)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Datetime)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Phone)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Rem)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Price)</td>
+                    </tr>
+                    }
+                </table>
+                
+                @*@foreach (var item in Model.smsLogList)
+                {
+                    <div>@item.Provider</div>
+                }
+                <select asp-items="@Model.ModelState" asp-for="@Model.smsLogList" />*@
+
+            </form>
+            
+        </div>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+2022-02-22 11:12:57.4488|INFO|SmsAPI.Program|Initializing aplication...
+2022-02-22 11:13:00.1849|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2022-02-22 11:13:00.2125|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2022-02-22 11:13:00.2425|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-02-22 11:13:00.2425|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-02-22 11:13:00.2735|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\guilh\source\repos\SmsAPI\SmsAPI
+2022-02-22 11:19:48.9680|INFO|SmsAPI.Program|Initializing aplication...
+2022-02-22 11:19:53.4910|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2022-02-22 11:19:53.5912|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2022-02-22 11:19:53.6057|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-02-22 11:19:53.6215|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-02-22 11:19:53.6360|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\guilh\source\repos\SmsAPI\SmsAPI
+2022-02-22 11:20:36.4778|INFO|System.Net.Http.HttpClient.Default.LogicalHandler|Start processing HTTP request POST http://www.smsbulk.pt/api-http-v1/sms_send.php
+2022-02-22 11:20:36.4979|INFO|System.Net.Http.HttpClient.Default.ClientHandler|Sending HTTP request POST http://www.smsbulk.pt/api-http-v1/sms_send.php
+2022-02-22 11:20:36.7457|INFO|System.Net.Http.HttpClient.Default.ClientHandler|Received HTTP response headers after 246.7807ms - 200
+2022-02-22 11:20:36.7457|INFO|System.Net.Http.HttpClient.Default.LogicalHandler|End processing HTTP request after 291.6089ms - 200
+2022-02-22 12:00:41.7873|INFO|SmsAPI.Program|Initializing aplication...
+2022-02-22 12:00:44.7445|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2022-02-22 12:00:44.7445|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2022-02-22 12:00:44.7712|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-02-22 12:00:44.7836|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-02-22 12:00:44.7989|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\guilh\source\repos\SmsAPI\SmsAPI
